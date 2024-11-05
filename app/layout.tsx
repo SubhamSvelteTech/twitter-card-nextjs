@@ -42,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta
           property="og:url"
           content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html"
@@ -60,7 +60,7 @@ export default function RootLayout({
           property="og:image"
           content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
         />
-      </Head>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
