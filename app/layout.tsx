@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "A short description of your page content",
     images: [
       {
-        url: "https://example.com/path-to-your-image.jpg",
+        url: "https://www.digitalocean.com/cdn-cgi/image/quality=75,width=828/https://www.digitalocean.com/api/static-content/v1/images?src=https%3A%2F%2Fcommunity-cdn-digitalocean-com.global.ssl.fastly.net%2FQbUQdoFPxWTLdrrX9PkyMW4E&raw=1",
         width: 1200,
         height: 630,
         alt: "A description of the image",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Your Page Title",
     description: "A short description of your page content",
-    images: ["https://example.com/path-to-your-image.jpg"],
+    images: ["https://assets.digitalocean.com/articles/social-metadata/html-social-share.png"],
   },
 };
 
