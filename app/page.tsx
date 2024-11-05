@@ -1,29 +1,34 @@
-import { Metadata } from 'next';
-
+import { Metadata } from 'next'; // if using TypeScript
+ 
 export const metadata: Metadata = {
-  title: 'When Great Minds Don’t Think Alike',
-  description: 'How much does culture influence creative thinking?',
   openGraph: {
-    url: 'http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html',
-    type: 'article',
-    title: 'When Great Minds Don’t Think Alike',
-    description: 'How much does culture influence creative thinking?',
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    url: 'https://nextjs.org',
+    siteName: 'Next.js',
     images: [
       {
-        url: 'http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Article image',
+        url: 'https://nextjs.org/og.png',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://nextjs.org/og-alt.png',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
       },
     ],
+    locale: 'en_US',
+    type: 'website',
   },
-  viewport: 'width=device-width, initial-scale=1.0',
 };
-
-export default function HomePage() {
+ 
+export default function Page() {
   return (
-    <main>
-      <h1>When Great Minds Don’t Think Alike</h1>
-    </main>
+    <div>
+      <h1>Next.js</h1>
+      <p>The React Framework for the Web</p>
+    </div>
   );
 }
