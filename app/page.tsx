@@ -1,4 +1,4 @@
-import { Metadata } from 'next'; // if using TypeScript
+import { Metadata } from 'next';
  
 export const metadata: Metadata = {
   openGraph: {
