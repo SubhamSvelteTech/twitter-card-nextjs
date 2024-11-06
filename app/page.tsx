@@ -1,30 +1,18 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hi there!",
-  description: "Using opengraph in nextjs",
-  openGraph: {
-    images: [
-      {
-        url: "https://library.elementor.com/illustrator-portfolio/wp-content/uploads/sites/85/2020/06/faces-pic1.jpg",
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "https://res.cloudinary.com/omaha-code/w_1280,c_fill/omaha-code-cdn/2018/12/The-Open-Graph-Protocol-Guide.jpg",
-        width: 1800,
-        height: 1600,
-        alt: "My custom alt",
-      },
-    ],
-  },
+  title: "HomeIVF | Bringing Life Home",
+  description:
+    "HomeIVF is a platform that helps bring life home. Learn more about our services and how we can assist you.",
+  keywords:
+    "HomeIVF, IVF, fertility, fertility Family, Bringing Life Home, Home IVF Solutions, At-Home IVF Kits, Fertility Treatment at Home, IVF Success at Home, Home-Based Fertility Care, Family Fertility Plans, Personalized IVF Treatment, Family Planning with IVF, Affordable IVF at Home, Fertility Care Specialists, Conception at Home, Family Building with IVF, Home IVF Journey, Parenthood Dreams, Affordable Fertility Options, Empowering Fertility Choices, Home IVF Treatments, Affordable At-Home Fertility Solutions, Personalized Fertility Care at Home",
 };
 
 export default function Page() {
   return (
     <div>
-      <h1>Next.js</h1>
-      <p>The React Framework for the Web</p>
+      <h1>Lol Next.js</h1>
+      <p>Lol The React Framework for the Web</p>
     </div>
   );
 }
