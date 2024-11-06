@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   openGraph: {
-    title: "Next.js",
-    description: "The React Framework for the Web",
+    title: "Hi there!",
+    description: "Using opengraph in Next.js",
     url: "https://nextjs.org",
     siteName: "Next.js",
     images: [
