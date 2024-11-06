@@ -2,18 +2,18 @@ import { Metadata } from 'next'; // if using TypeScript
  
 export const metadata: Metadata = {
   openGraph: {
-    title: 'Next.js',
-    description: 'The React Framework for the Web',
+    title: 'Hi there!',
+    description: 'Using opengraph in nextjs',
     url: 'https://nextjs.org',
     siteName: 'Next.js',
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: 'https://library.elementor.com/illustrator-portfolio/wp-content/uploads/sites/85/2020/06/faces-pic1.jpg',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://nextjs.org/og-alt.png',
+        url: 'https://res.cloudinary.com/omaha-code/w_1280,c_fill/omaha-code-cdn/2018/12/The-Open-Graph-Protocol-Guide.jpg',
         width: 1800,
         height: 1600,
         alt: 'My custom alt',
