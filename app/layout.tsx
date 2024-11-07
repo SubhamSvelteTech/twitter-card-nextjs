@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta property="twitter:site" content={process.env.SOCIAL_HANDLE} />
         <meta property="twitter:title" content={"9876543ertyui nmnm"} />
         <meta property="twitter:description" content={"jkjjkjkjkjkjkj "} />
-        <meta property="twitter:image" content={"u9jiaoshiauh"} />
+        <meta property="twitter:image" content={"https://miro.medium.com/v2/resize:fit:720/format:webp/1*fp0WMBxsh1718LVFz3H9vw.png"} />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
