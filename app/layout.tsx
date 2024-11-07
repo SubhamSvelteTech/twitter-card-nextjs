@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     default: "Title Main",
   },
   description: "qwerty qwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwerty",
-  metadataBase: new URL("https://homeivf.in"),
+  metadataBase: new URL("https://twitter-card-nextjs.vercel.app"),
   twitter: {
     card: "summary_large_image",
-    site: "homeivf.in",
+    site: "twitter-card-nextjs.vercel.app",
     creator: "Subh",
     title: "qwerty ytrewq",
     description: "Boost your Resume using AI and Land your Dream Job Today",
