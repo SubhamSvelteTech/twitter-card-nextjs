@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://twitter-card-nextjs.vercel.app"),
   twitter: {
     card: "summary_large_image",
-    site: "@mongodb",  // Replace with your Twitter username
+    site: "@mongodb", // Replace with your Twitter username
     creator: "@mongodb", // Replace with the content creator's Twitter username
     title: "HomeIVF | Bringing Life Home",
     description:
@@ -34,10 +34,19 @@ export const metadata: Metadata = {
     images: ["https://twitter-card-nextjs.vercel.app/opengraph-image.png"],
   },
   openGraph: {
+    type: "website",
+    url: "https://twitter-card-nextjs.vercel.app",
     title: "HomeIVF | Bringing Life Home",
     description:
       "HomeIVF is a platform that helps bring life home. Learn more about our services and how we can assist you.",
-    images: ["https://twitter-card-nextjs.vercel.app/opengraph-image.png"],
+    images: [
+      {
+        url: "https://twitter-card-nextjs.vercel.app/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "HomeIVF - Bringing Life Home",
+      },
+    ],
   },
 };
 
