@@ -1,64 +1,71 @@
 import type { Metadata } from "next";
 
 // Metadata configuration
+// export const metadata: Metadata = {
+//   title: "Next.js App | Comprehensive Metadata",
+//   description:
+//     "This is an example of how to configure metadata in a Next.js app using the App Router.",
+//   keywords: [
+//     "Next.js",
+//     "Metadata",
+//     "SEO",
+//     "Open Graph",
+//     "Twitter Cards",
+//     "Web Development",
+//   ],
+//   metadataBase: new URL("https://twitter-card-nextjs.vercel.app"),
+//   openGraph: {
+//     type: "website",
+//     url: "https://twitter-card-nextjs.vercel.app",
+//     title: "Next.js App | Comprehensive Metadata",
+//     description:
+//       "Explore the capabilities of Next.js App Router with SEO, Open Graph, and Twitter metadata.",
+//     images: [
+//       {
+//         url: "https://twitter-card-nextjs.vercel.app/opengraph-image.png",
+//         width: 1200,
+//         height: 630,
+//         alt: "Next.js App Example Open Graph Image",
+//       },
+//     ],
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     site: "@exampleTwitterHandle",
+//     creator: "@creatorTwitterHandle",
+//     title: "Next.js App | Comprehensive Metadata",
+//     description:
+//       "Explore the capabilities of Next.js App Router with SEO, Open Graph, and Twitter metadata.",
+//     images: ["https://twitter-card-nextjs.vercel.app/opengraph-image.png"],
+//   },
+//   alternates: {
+//     canonical: "https://twitter-card-nextjs.vercel.app",
+//     languages: {
+//       "en-US": "https://twitter-card-nextjs.vercel.app/en-US",
+//       "fr-FR": "https://twitter-card-nextjs.vercel.app/fr-FR",
+//     },
+//   },
+//   robots: {
+//     index: true,
+//     follow: true,
+//     nocache: false,
+//     noimageindex: false,
+//   },
+//   viewport: {
+//     width: "device-width",
+//     initialScale: 1,
+//   },
+//   themeColor: "#ffffff",
+//   icons: {
+//     icon: "/favicon.ico",
+//     apple: "/apple-touch-icon.png",
+//   },
+// };
+
 export const metadata: Metadata = {
-  title: "Next.js App | Comprehensive Metadata",
-  description:
-    "This is an example of how to configure metadata in a Next.js app using the App Router.",
-  keywords: [
-    "Next.js",
-    "Metadata",
-    "SEO",
-    "Open Graph",
-    "Twitter Cards",
-    "Web Development",
-  ],
   metadataBase: new URL("https://twitter-card-nextjs.vercel.app"),
   openGraph: {
-    type: "website",
-    url: "https://twitter-card-nextjs.vercel.app",
-    title: "Next.js App | Comprehensive Metadata",
-    description:
-      "Explore the capabilities of Next.js App Router with SEO, Open Graph, and Twitter metadata.",
-    images: [
-      {
-        url: "https://twitter-card-nextjs.vercel.app/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Next.js App Example Open Graph Image",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@exampleTwitterHandle",
-    creator: "@creatorTwitterHandle",
-    title: "Next.js App | Comprehensive Metadata",
-    description:
-      "Explore the capabilities of Next.js App Router with SEO, Open Graph, and Twitter metadata.",
-    images: ["https://twitter-card-nextjs.vercel.app/opengraph-image.png"],
-  },
-  alternates: {
-    canonical: "https://twitter-card-nextjs.vercel.app",
-    languages: {
-      "en-US": "https://twitter-card-nextjs.vercel.app/en-US",
-      "fr-FR": "https://twitter-card-nextjs.vercel.app/fr-FR",
-    },
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    noimageindex: false,
-  },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
-  themeColor: "#ffffff",
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    images: "/opengraph-image.png",
   },
 };
 
